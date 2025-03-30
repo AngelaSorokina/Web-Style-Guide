@@ -1,10 +1,4 @@
 /* ============================================= */
-/* Sub-Folder Imports */
-/* ============================================= */
-/* ============================================= */
-/* Utilities Imports */
-/* ============================================= */
-/* ============================================= */
 /* Base Imports */
 /* ============================================= */
 /* Document
@@ -379,9 +373,6 @@ template {
   display: none;
 }
 
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
 /* line 5, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/base/_typography.scss */
 * {
   font-family: "Lato", sans-serif;
@@ -399,9 +390,6 @@ a {
   text-decoration: none;
 }
 
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
 /* line 24, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
@@ -431,13 +419,7 @@ a {
   border-radius: 5px;
 }
 
-/* ============================================= */
-/* Components Imports */
-/* ============================================= */
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-/* line 5, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
+/* line 1, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -448,40 +430,37 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
+/* line 11, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
+/* line 15, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
+/* line 19, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
+/* line 23, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
+/* line 27, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
 
-/* ============================================= */
-/*              Forms                            */
-/* ============================================= */
-/* line 5, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_forms.scss */
+/* line 2, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_forms.scss */
 .form {
   flex-basis: 100%;
 }
 
-/* line 9, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_forms.scss */
+/* line 6, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_forms.scss */
 .input {
   display: block;
   width: 94%;
@@ -491,7 +470,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 18, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_forms.scss */
+/* line 15, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -501,9 +480,6 @@ a {
   overflow: hidden;
 }
 
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
 /* line 5, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_navigation.scss */
 .nav {
   padding-left: 0;
@@ -519,7 +495,8 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, 
+ color .2s ease-in-out;
 }
 
 /* line 23, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_navigation.scss */
@@ -528,10 +505,7 @@ a {
   background-color: #58e1c1;
 }
 
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
-/* line 5, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_images.scss */
+/* line 2, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -541,7 +515,7 @@ a {
   max-height: 100%;
 }
 
-/* line 14, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_images.scss */
+/* line 11, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -552,29 +526,26 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 24, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_images.scss */
+/* line 21, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* ============================================= */
-/*              Grid System                      */
-/* ============================================= */
-/* line 5, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 2, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .container {
   padding: 0 10px;
 }
 
-/* line 9, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 6, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
-/* line 15, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 12, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -583,74 +554,71 @@ a {
   border-radius: 5px;
 }
 
-/* line 23, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 20, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 27, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 24, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 31, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 28, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 35, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 32, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 39, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 36, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 43, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 40, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 47, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 44, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 51, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 48, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 55, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 52, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 59, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 56, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 63, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 60, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 67, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 64, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 71, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
+/* line 68, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }
 
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
 @media (min-width: 768px) {
   /* line 6, ../../Project-4/style_guide_v7/Web-Style-Guide/scss/components/_media-queries.scss */
   .container {
