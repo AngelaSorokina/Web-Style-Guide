@@ -10,20 +10,40 @@
   
   .default {
     background-color: $color-accent;
+
+    &:hover {
+        background-color: lighten($color-accent, 15%);
+    }
   }
   
   .error {
     background-color: $color-error;
+
+    &:hover {
+        background-color: lighten($color-error, 15%);
+    }
   }
   
   .info {
     background-color: $color-info;
+    
+    &:hover {
+        background-color: lighten($color-info, 15%);
+    }
   }
   
   .success {
     background-color: $color-success;
+
+    &:hover {
+        background-color: lighten($color-success, 15%);
+    }
   }
   
   .warning {
     background-color: $color-warning;
+
+    &:hover {
+        background-color: lighten($color-warning, 15%);
+    }
   }

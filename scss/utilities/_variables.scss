@@ -24,3 +24,5 @@ $margin-s: 10px;
 $padding-m: 20px;
 $margin-m: 20px;
 
+//Color functions
+$base-light: lighten($color-accent, 15%);
